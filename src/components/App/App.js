@@ -1,53 +1,42 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import mapStateToProps from '../../redux/mapRedux/mapStateToProps';
+import mapStateToProps from '../../redux/mapStateToProps';
+import {
+  HashRouter as Router,
+  Route,
+  Redirect,
+  Switch,
+} from 'react-router-dom';
 
 import './App.css';
+
+// LAYOUT COMPONENTS
+import AppTopper from '../AppToppers/AppTopper';
+import Footer from '../Footer/Footer';
+
+// PAGE COMPONENTS
+import HomePage from '../HomePage/HomePage';
 
 class Template extends Component {
     render() {
         return(
-            <div>
-                <header>
-                    <div>
-                        <h1>Responsive</h1>
-                    </div>
-                    <div>
-                        <nav>
-                            <button onClick={this.onToggleMobileNav}>
-                                Navigation
-                            </button>
-                            <ul>
-                                <li>
-                                    <a href="/">About</a>
-                                </li>
-                                <li>
-                                    <a href="/">Store</a>
-                                </li>
-                                <li>
-                                    <a href="/">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </header>
-
+            <Router>
                 <div>
+                    <AppTopper />
+
                     <div>
-                        <div>
-                            Hail Enhydra!
-                            <button onClick={this.onSignUp}>SIGN UP</button>
-                        </div>
+                        <Switch>
+                            <Route
+                                exact
+                                path="/"
+                                component={HomePage}
+                            />
+                        </Switch>
                     </div>
 
-                    
-                    Body Content
+                    <Footer />
                 </div>
-
-                <footer>
-                    Footer Content
-                </footer>
-            </div>
+            </Router>
         )
     }
 };

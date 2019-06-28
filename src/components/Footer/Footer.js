@@ -5,9 +5,9 @@ import mapStateToProps from '../../redux/mapStateToProps';
 class Template extends Component {
     render() {
         return(
-            <div>
-                COMPONENT CONTENT
-            </div>
+            <footer>
+                Footer Content
+            </footer>
         )
     }
 };
