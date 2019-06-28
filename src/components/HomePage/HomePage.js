@@ -4,6 +4,7 @@ import mapStateToProps from '../../redux/mapStateToProps';
 
 // CONTENT IMPORTS
 import ArticleCard from '../../content/ArticleCard/ArticleCard';
+import FlexGrid from '../FlexGrid/FlexGrid';
 
 class HomePage extends Component {
     render() {
@@ -39,17 +40,17 @@ class HomePage extends Component {
                     </div>
                 </div>
 
-                <div className="grid">
-                    <div className="grid-col grid-col_12">
+                <FlexGrid row>
+                    <FlexGrid col size={12}>
                         <ArticleCard />
-                    </div>
-                    <div className="grid-col grid-col_12">
+                    </FlexGrid>
+                    <FlexGrid col size={12}>
                         <ArticleCard />
-                    </div>
-                    <div className="grid-col grid-col_12">
+                    </FlexGrid>
+                    <FlexGrid col size={12}>
                         <ArticleCard />
-                    </div>
-                </div>
+                    </FlexGrid>
+                </FlexGrid>
 
                 <div>
                     <button className="btn">Learn More</button>
