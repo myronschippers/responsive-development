@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import mapStateToProps from '../../redux/mapStateToProps';
 
+// CONTENT IMPORTS
+import ArticleCard from '../../content/ArticleCard/ArticleCard';
+
 class HomePage extends Component {
     render() {
         return(
@@ -37,62 +40,14 @@ class HomePage extends Component {
                 </div>
 
                 <div className="grid">
-                    <div className="grid-col">
-
-                        <div className="card">
-                            <div className="card-title">
-                                <h4>Article Title</h4>
-                            </div>
-                            <div className="card-bd">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;
-                                    Maecenas erat nisl, dictum a mi eget, sollicitudin sodales purus.&nbsp;
-                                    Vestibulum ut posuere odio.&nbsp;
-                                    In hac habitasse platea dictumst.&nbsp;
-                                    Nullam aliquam fringilla risus, et hendrerit sem congue ac.&nbsp;
-                                    Morbi non ante maximus, pharetra metus et, pretium risus.
-                                </p>
-                            </div>
-                        </div>
-
+                    <div className="grid-col grid-col_12">
+                        <ArticleCard />
                     </div>
-                    <div className="grid-col">
-
-                        <div className="card">
-                            <div className="card-title">
-                                <h4>Article Title</h4>
-                            </div>
-                            <div className="card-bd">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;
-                                    Maecenas erat nisl, dictum a mi eget, sollicitudin sodales purus.&nbsp;
-                                    Vestibulum ut posuere odio.&nbsp;
-                                    In hac habitasse platea dictumst.&nbsp;
-                                    Nullam aliquam fringilla risus, et hendrerit sem congue ac.&nbsp;
-                                    Morbi non ante maximus, pharetra metus et, pretium risus.
-                                </p>
-                            </div>
-                        </div>
-
+                    <div className="grid-col grid-col_12">
+                        <ArticleCard />
                     </div>
-                    <div className="grid-col">
-
-                        <div className="card">
-                            <div className="card-title">
-                                <h4>Article Title</h4>
-                            </div>
-                            <div className="card-bd">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;
-                                    Maecenas erat nisl, dictum a mi eget, sollicitudin sodales purus.&nbsp;
-                                    Vestibulum ut posuere odio.&nbsp;
-                                    In hac habitasse platea dictumst.&nbsp;
-                                    Nullam aliquam fringilla risus, et hendrerit sem congue ac.&nbsp;
-                                    Morbi non ante maximus, pharetra metus et, pretium risus.
-                                </p>
-                            </div>
-                        </div>
-
+                    <div className="grid-col grid-col_12">
+                        <ArticleCard />
                     </div>
                 </div>
 

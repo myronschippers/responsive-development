@@ -1,0 +1,29 @@
+.card {
+    display: block;
+    padding: 10px;
+    background-color: #ededed;
+    box-shadow: 0 3px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card > * {
+    margin-top: 10px;
+}
+
+.card-hd {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c5c6c7;
+}
+.card-hd,
+.card-hd h1,
+.card-hd h2,
+.card-hd h3,
+.card-hd h4,
+.card-hd h5,
+.card-hd h6 {
+    font-size: 1.2rem;
+    color: #45a29e;
+}
+
+.card-bd {
+    font-size: 1rem;
+}
