@@ -43,6 +43,11 @@ h6 {
   margin: 0 0 15px;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

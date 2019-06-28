@@ -5,6 +5,7 @@ import mapStateToProps from '../../redux/mapStateToProps';
 // CONTENT IMPORTS
 import ArticleCard from '../../content/ArticleCard/ArticleCard';
 import FlexGrid from '../FlexGrid/FlexGrid';
+import MediaBlock from '../MediaBlock/MediaBlock';
 
 class HomePage extends Component {
     render() {
@@ -29,15 +30,14 @@ class HomePage extends Component {
                 </div>
 
                 <div className="vr vr_3x">
-                    <div className="mediaBlock">
-                        <div className="mediaBlock-content">
-                            <h3>Enhydra is Curious</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut posuere odio. In hac habitasse platea dictumst. Nullam aliquam fringilla risus, et hendrerit sem congue ac. Maecenas erat nisl, dictum a mi eget, sollicitudin sodales purus.</p>
-                        </div>
-                        <div className="mediaBlock-media mediaBlock-media_shiftLeft">
-                            <img src="/images/otter-hide-and-seek.jpg" alt="Hide and Seek Otter" />
-                        </div>
-                    </div>
+                    <MediaBlock
+                        imgSrc="/images/otter-hide-and-seek.jpg"
+                        imgAlt="Hide and Seek Otter"
+                        mediaLeft
+                    >
+                        <h3>Enhydra is Curious</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut posuere odio. In hac habitasse platea dictumst. Nullam aliquam fringilla risus, et hendrerit sem congue ac. Maecenas erat nisl, dictum a mi eget, sollicitudin sodales purus.</p>                        
+                    </MediaBlock>
                 </div>
 
                 <FlexGrid row>
