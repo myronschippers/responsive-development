@@ -22,13 +22,13 @@ class Template extends Component {
 
         return(
             <div className="mediaBlock">
-                <div className="mediaBlock-content">
-                    {this.props.children}
-                </div>
                 <div className={mediaStyles}>
                     {this.props.imgSrc &&
                     <img src={this.props.imgSrc} alt={this.props.imgAlt} />
                     }
+                </div>
+                <div className="mediaBlock-content">
+                    {this.props.children}
                 </div>
             </div>
         )

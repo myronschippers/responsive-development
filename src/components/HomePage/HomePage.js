@@ -18,15 +18,14 @@ class HomePage extends Component {
                 </div>
 
                 <div className="vr vr_3x">
-                    <div className="mediaBlock">
-                        <div className="mediaBlock-content">
+                    <MediaBlock
+                        imgSrc="/images/otter-chill.jpg"
+                        imgAlt="Relaxing Otter"
+                        mediaRight
+                    >
                             <h3>Enhydra is Cill</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat nisl, dictum a mi eget, sollicitudin sodales purus. Vestibulum ut posuere odio. In hac habitasse platea dictumst. Nullam aliquam fringilla risus, et hendrerit sem congue ac. Morbi non ante maximus, pharetra metus et, pretium risus.</p>
-                        </div>
-                        <div className="mediaBlock-media mediaBlock-media_shiftRight">
-                            <img src="/images/otter-chill.jpg" alt="Relaxing Otter" />
-                        </div>
-                    </div>
+                    </MediaBlock>
                 </div>
 
                 <div className="vr vr_3x">

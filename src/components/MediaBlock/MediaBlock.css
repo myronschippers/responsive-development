@@ -1,12 +1,17 @@
 .mediaBlock {
     display: block;
     width: 100%;
+    *zoom: 1;
 }
 
-/* BELOW STYLES: called a clearfix */
+/* BELOW STYLES: called a clearfix */  
+.mediaBlock:before,
 .mediaBlock:after {
-    content: "";
+    content: " ";
     display: table;
+  }
+  
+.mediaBlock:after {
     clear: both;
 }
 
