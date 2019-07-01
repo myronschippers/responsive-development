@@ -2,10 +2,17 @@
   box-sizing: border-box;
   width: 100%;
   padding: 20px 20px 30px 20px;
+  border-top: 1px solid rgba(255,255,255,0.8);
 }
 
 .container:nth-child(odd) {
+  position: relative;
+  z-index: 100;
   background: url("/images/grey_wash_wall.png") repeat;
+  color: #ededed;
+  overflow: hidden;
+  border-top: 1px solid rgba(0,0,0,0.3);
+  box-shadow: inset 0px 20px 20px -16px rgba(0,0,0,0.25);
 }
 
 .panel {
