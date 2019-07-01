@@ -1,0 +1,44 @@
+.hero {
+    display: block;
+    position: relative;
+    padding-bottom: 45%;
+    background-image: url("/images/lake-surface.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 100;
+}
+
+.hero:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.hero-callout {
+    display: block;
+    width: 95%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-callout-title {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    color: #ededed;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
+}
+
+/*
+TABLET BP
+-------------------- */
+
+/*
+DESKTOP BP
+-------------------- */

@@ -26,7 +26,7 @@ body {
 }
 
 body {
-  background-color: #c5c6c7;
+  background: #c5c6c7 url("/images/squared_metal.png") repeat;
   margin: 0;
   font-family: "Open Sans", "Oxygen", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
