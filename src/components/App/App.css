@@ -56,3 +56,33 @@
 .btnClose:after {
   transform: rotate(135deg);
 }
+
+.hdg {
+  font-size: 1rem;
+  font-weight: bold;
+  color: inherit;
+}
+
+.hdg_1 {
+  font-size: 2rem;
+}
+
+.hdg_2 {
+  font-size: 1.9rem;
+}
+
+.hdg_3 {
+  font-size: 1.8rem;
+}
+
+.hdg_4 {
+  font-size: 1.7rem;
+}
+
+.hdg_5 {
+  font-size: 1.6rem;
+}
+
+.hdg_6 {
+  font-size: 1.5rem;
+}

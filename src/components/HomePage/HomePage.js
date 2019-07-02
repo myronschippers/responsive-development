@@ -21,7 +21,7 @@ class HomePage extends Component {
                         imgAlt="Relaxing Otter"
                         mediaRight
                     >
-                        <h3>Enhydra is Chill</h3>
+                        <h3 className="hdg hdg_3">Enhydra is Chill</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;
                             Maecenas erat nisl, dictum a mi eget, sollicitudin sodales purus.&nbsp;
@@ -38,7 +38,7 @@ class HomePage extends Component {
                         imgAlt="Hide and Seek Otter"
                         mediaLeft
                     >
-                        <h3>Enhydra is Curious</h3>
+                        <h3 className="hdg hdg_3">Enhydra is Curious</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;
                             Vestibulum ut posuere odio. In hac habitasse platea dictumst.&nbsp;
