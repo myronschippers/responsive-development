@@ -12,7 +12,7 @@
 
 .grid-col {
     flex: 0 0 auto;
-    padding: 0 0.5rem 0.5rem;
+    padding: 0 0.5rem 1rem;
     box-sizing: border-box;
 }
 
@@ -75,3 +75,213 @@
     flex-basis: 100%;
     max-width: 100%;
 }
+
+/*
+BREAKPOINT:
+Mobile Only
+-------------------- */
+
+/* @media (max-width: 599px) {
+    
+} */
+
+/*
+BREAKPOINT:
+Tablet Portrait Up
+-------------------- */
+
+/* @media (min-width: 600px) {
+    .grid-col_sm1 {
+        flex-basis: 8.33333333%;
+        max-width: 8.33333333%;
+    }
+    
+    .grid-col_sm2 {
+        flex-basis: 16.66666667%;
+        max-width: 16.66666667%;
+    }
+    
+    .grid-col_sm3 {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    
+    .grid-col_sm4 {
+        flex-basis: 33.33333333%;
+        max-width: 33.33333333%;
+    }
+    
+    .grid-col_sm5 {
+        flex-basis: 41.66666667%;
+        max-width: 41.66666667%;
+    }
+    
+    .grid-col_sm6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    
+    .grid-col_sm7 {
+        flex-basis: 58.33333333%;
+        max-width: 58.33333333%;
+    }
+    
+    .grid-col_sm8 {
+        flex-basis: 66.66666667%;
+        max-width: 66.66666667%;
+    }
+    
+    .grid-col_sm9 {
+        flex-basis: 75%;
+        max-width: 75%;
+    }
+    
+    .grid-col_sm10 {
+        flex-basis: 83.33333333%;
+        max-width: 83.33333333%;
+    }
+    
+    .grid-col_sm11 {
+        flex-basis: 91.66666667%;
+        max-width: 91.66666667%;
+    }
+    
+    .grid-col_sm12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+} */
+
+/*
+BREAKPOINT:
+Tablet Landscape Up
+-------------------- */
+
+/* @media (min-width: 900px) {
+    .grid-col_md1 {
+        flex-basis: 8.33333333%;
+        max-width: 8.33333333%;
+    }
+    
+    .grid-col_md2 {
+        flex-basis: 16.66666667%;
+        max-width: 16.66666667%;
+    }
+    
+    .grid-col_md3 {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    
+    .grid-col_md4 {
+        flex-basis: 33.33333333%;
+        max-width: 33.33333333%;
+    }
+    
+    .grid-col_md5 {
+        flex-basis: 41.66666667%;
+        max-width: 41.66666667%;
+    }
+    
+    .grid-col_md6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    
+    .grid-col_md7 {
+        flex-basis: 58.33333333%;
+        max-width: 58.33333333%;
+    }
+    
+    .grid-col_md8 {
+        flex-basis: 66.66666667%;
+        max-width: 66.66666667%;
+    }
+    
+    .grid-col_md9 {
+        flex-basis: 75%;
+        max-width: 75%;
+    }
+    
+    .grid-col_md10 {
+        flex-basis: 83.33333333%;
+        max-width: 83.33333333%;
+    }
+    
+    .grid-col_md11 {
+        flex-basis: 91.66666667%;
+        max-width: 91.66666667%;
+    }
+    
+    .grid-col_md12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+} */
+
+/*
+BREAKPOINT:
+Desktop Up
+-------------------- */
+
+/* @media (min-width: 1200px) {
+    .grid-col_lg1 {
+        flex-basis: 8.33333333%;
+        max-width: 8.33333333%;
+    }
+    
+    .grid-col_lg2 {
+        flex-basis: 16.66666667%;
+        max-width: 16.66666667%;
+    }
+    
+    .grid-col_lg3 {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    
+    .grid-col_lg4 {
+        flex-basis: 33.33333333%;
+        max-width: 33.33333333%;
+    }
+    
+    .grid-col_lg5 {
+        flex-basis: 41.66666667%;
+        max-width: 41.66666667%;
+    }
+    
+    .grid-col_lg6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    
+    .grid-col_lg7 {
+        flex-basis: 58.33333333%;
+        max-width: 58.33333333%;
+    }
+    
+    .grid-col_lg8 {
+        flex-basis: 66.66666667%;
+        max-width: 66.66666667%;
+    }
+    
+    .grid-col_lg9 {
+        flex-basis: 75%;
+        max-width: 75%;
+    }
+    
+    .grid-col_lg10 {
+        flex-basis: 83.33333333%;
+        max-width: 83.33333333%;
+    }
+    
+    .grid-col_lg11 {
+        flex-basis: 91.66666667%;
+        max-width: 91.66666667%;
+    }
+    
+    .grid-col_lg12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+} */

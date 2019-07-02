@@ -8,7 +8,7 @@ import './AppTopper.css';
 
 class AppTopper extends Component {
     state = {
-        isNavOpen: true,
+        isNavOpen: false,
     };
 
     onToggleMobileNav = (event) => {

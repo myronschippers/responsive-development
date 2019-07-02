@@ -7,6 +7,10 @@ import './FlexGrid.css';
 const STYLES = {
     row: 'grid',
     col: 'grid-col',
+    sizeBase: 'grid-col_',
+    sizeSmBp: 'sm',
+    sizeMdBp: 'md',
+    sizeLgBp: 'lg',
     size1: 'grid-col_1',
     size2: 'grid-col_2',
     size3: 'grid-col_3',
@@ -39,6 +43,23 @@ class Template extends Component {
             const baseSizeProp = `size${this.props.size}`;
             gridStyles += ` ${STYLES[baseSizeProp]}`;
         }
+
+        // ADD BP SIZING
+        const bpSizing = [
+            'sizeSm',
+            'sizeMd',
+            'sizeLg',
+        ];
+        bpSizing.forEach(sizeKey => {
+            const styleKey = `${sizeKey}Bp`;
+            if (this.props[sizeKey] != null
+                && this.props[sizeKey] > 0
+                && this.props[sizeKey] < 13
+            ) {
+                const bpSize = this.props[sizeKey];
+                gridStyles += ` ${STYLES.sizeBase}${STYLES[styleKey]}${bpSize}`;
+            }
+        });
 
         return(
             <div className={gridStyles}>
