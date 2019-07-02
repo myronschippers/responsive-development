@@ -28,6 +28,7 @@ Responsive Viewport `<meta>` tag is used to optimize pages for a variety of devi
 <head>
     ...
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    ...
 </head>
 ```
 
@@ -99,6 +100,7 @@ At mobile we inherit the screen width and stack the image on top of the content.
 * [The 100% Correct Way to do CSS Breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/)
 * [How to Use CSS Breakpoints to Create Responsive Designs](https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/)
 * [Responsive: HTML & CSS is Hard](https://internetingishard.com/html-and-css/responsive-design/)
+* [Using Media Queries in 2018](https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/)
 
 **Sample Responsive Sites:**
 
