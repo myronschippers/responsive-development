@@ -90,7 +90,7 @@ BREAKPOINT:
 Tablet Portrait Up
 -------------------- */
 
-/* @media (min-width: 600px) {
+@media (min-width: 600px) {
     .grid-col_sm1 {
         flex-basis: 8.33333333%;
         max-width: 8.33333333%;
@@ -150,14 +150,14 @@ Tablet Portrait Up
         flex-basis: 100%;
         max-width: 100%;
     }
-} */
+}
 
 /*
 BREAKPOINT:
 Tablet Landscape Up
 -------------------- */
 
-/* @media (min-width: 900px) {
+@media (min-width: 900px) {
     .grid-col_md1 {
         flex-basis: 8.33333333%;
         max-width: 8.33333333%;
@@ -217,14 +217,14 @@ Tablet Landscape Up
         flex-basis: 100%;
         max-width: 100%;
     }
-} */
+}
 
 /*
 BREAKPOINT:
 Desktop Up
 -------------------- */
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .grid-col_lg1 {
         flex-basis: 8.33333333%;
         max-width: 8.33333333%;
@@ -284,4 +284,4 @@ Desktop Up
         flex-basis: 100%;
         max-width: 100%;
     }
-} */
+}

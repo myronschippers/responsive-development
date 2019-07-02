@@ -50,13 +50,13 @@ class HomePage extends Component {
 
                 <div className="container">
                     <FlexGrid row>
-                        <FlexGrid col size={12} sizeSm={6}>
+                        <FlexGrid col size={12} sizeSm={6} sizeMd={4}>
                             <ArticleCard />
                         </FlexGrid>
-                        <FlexGrid col size={12} sizeSm={6}>
+                        <FlexGrid col size={12} sizeSm={6} sizeMd={4}>
                             <ArticleCard />
                         </FlexGrid>
-                        <FlexGrid col size={12} sizeSm={12}>
+                        <FlexGrid col size={12} sizeSm={12} sizeMd={4}>
                             <ArticleCard />
                         </FlexGrid>
                     </FlexGrid>

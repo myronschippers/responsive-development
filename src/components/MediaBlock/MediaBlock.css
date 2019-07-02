@@ -1,11 +1,11 @@
 .mediaBlock {
     display: block;
     width: 100%;
-    /* *zoom: 1; */
+    *zoom: 1;
 }
 
 /* BELOW STYLES: called a clearfix */  
-/* .mediaBlock:before,
+.mediaBlock:before,
 .mediaBlock:after {
     content: " ";
     display: table;
@@ -13,7 +13,7 @@
   
 .mediaBlock:after {
     clear: both;
-} */
+}
 
 .mediaBlock-media {
     width: 100%;
@@ -36,9 +36,8 @@ BREAKPOINT:
 Mobile Only
 -------------------- */
 
-/* @media (max-width: 599px) {
-    
-} */
+@media (max-width: 599px) {
+}
 
 /*
 BREAKPOINT:
@@ -54,7 +53,7 @@ BREAKPOINT:
 Tablet Landscape Up
 -------------------- */
 
-/* @media (min-width: 900px) {
+@media (min-width: 900px) {
     .mediaBlock-media {
         width: 45%;
     }
@@ -74,7 +73,7 @@ Tablet Landscape Up
         padding-right: 0;
         padding-top: 0;
     }
-} */
+}
 
 /*
 BREAKPOINT:
