@@ -61,10 +61,9 @@ When setting up styling for most elements on your webpage you should avoid using
 If we change the width to `400px` it will become an absolute value. When scaling the browser we can see what effects this has.
 
 ```css
-.mediaBlock-media {
+.mediaBlock {
     width: 400px;
-    padding: 0 0 10px 0;
-    box-sizing: border-box;
+    /* ADDITIONAL PROPERTIES */
 }
 ```
 
@@ -80,17 +79,39 @@ Changing the width back to `100%` it will now be fluid and adjust its size based
 
 ## Mobile First
 
-We start with some base styling to support our mobile view and will work our way up from there.
+We start with some base styling to support our mobile view and will work our way up from there. When a page or component is styled out it is styled for the mobile screen size. Most things will be stacking. We will go through the layout and each component as though it is only developed for mobile and then enhance our styles from there to support additional breakpoints.
 
-### Header & Navigation
+The additional breakpoints that we create are supporting three basic devices Phone, Tablet, and Desktop. Our Tablet breakpoint is going to be a little special because we need a Portrait and Landscape orientatio. So our final device specific breakpoints are as shown below. In some special cases you may create a breakpoint to handle extra large desktop monitors.
+
+**Device Breakpoints:**
+
+* Phone
+* Tablet Portrait
+* Tablet Landscape
+* Desktop
+
+With these devices in mind we would examine the best pixel sizes to cover our **Supported Devices** outlined in the scope document.
+
+**Pixel Based Breakpoints:**
+
+* Phone (max-width: 599px)
+* Tablet Portrait (min-width: 600px)
+* Tablet Landscape (min-width: 900px)
+* Desktop (min-width: 1200px)
+
+Chances are by the time you have made adjustments for the Tablet Landscape breakpoint you won't need many more major adjustment at the Desktop breakpoint which is perfectly alright. The purpose of building on top of the styling from previous breakpoints is so that you can potentially write less styling.
+
+## Media Block
+
+At mobile we inherit the screen width and stack the image on top of the content.
+
+## Flex Grid
+
+## Header Bar & Navigation
 
 We have a basic header with logo and website name on the left and a hamburger menu on the right. When the hamburger menu is clicked the navigation items slide in from the right side of the screen.
 
 **What happens when we go to other Breakpoint sizes?**
-
-### Media Block
-
-At mobile we inherit the screen width and stack the image on top of the content.
 
 ## Helpful Resources
 
