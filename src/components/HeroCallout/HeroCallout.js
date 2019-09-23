@@ -10,8 +10,8 @@ class HeroCallout extends Component {
             <div className="hero">
                 <div className="hero-callout">
                     <h2 className="hero-callout-title">
-                        Welcome and...<br/>
-                        Hail Enhydra!
+                        Welcome to...<br/>
+                        Responsive Development!
                     </h2>
                 </div>
             </div>
