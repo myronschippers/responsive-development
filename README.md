@@ -123,28 +123,6 @@ We have a basic header with logo and website name on the left and a hamburger me
 
 **What happens when we go to other Breakpoint sizes?**
 
-## Helpful Resources
-
-**Articles on Responsive Development:**
-
-* [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
-* [The 100% Correct Way to do CSS Breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/)
-* [How to Use CSS Breakpoints to Create Responsive Designs](https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/)
-* [Responsive: HTML & CSS is Hard](https://internetingishard.com/html-and-css/responsive-design/)
-* [Using Media Queries in 2018](https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/)
-
-**Sample Responsive Sites:**
-
-* [GitHub](https://github.com/) 
-* [Klient Boost](https://klientboost.com/)
-* [Shopify](https://www.shopify.ca/)
-* [Smashing Magazine](https://www.smashingmagazine.com/)
-
-**CSS Documentation:**
-
-* [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-
 
 ## Installation
 
@@ -183,3 +161,26 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+
+## Helpful Resources
+
+**Articles on Responsive Development:**
+
+* [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
+* [The 100% Correct Way to do CSS Breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/)
+* [How to Use CSS Breakpoints to Create Responsive Designs](https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/)
+* [Responsive: HTML & CSS is Hard](https://internetingishard.com/html-and-css/responsive-design/)
+* [Using Media Queries in 2018](https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/)
+
+**Sample Responsive Sites:**
+
+* [GitHub](https://github.com/) 
+* [Klient Boost](https://klientboost.com/)
+* [Shopify](https://www.shopify.ca/)
+* [Smashing Magazine](https://www.smashingmagazine.com/)
+
+**CSS Documentation:**
+
+* [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
