@@ -41,22 +41,32 @@ There are certain elements that need some base styling when working in a respons
     ```css
     html,
     body {
-    height: 100%;
+        height: 100%;
     }
     ```
 
 * The `img` element is one of the most important as all images used will enherit their own sizing. For this we set `max-width: 100%` so that the `img` will use it's own sizing until its parent element is smaller than it is and it will then be restricted to the full width of that container. The CSS declaration `display: inline-block;` is used to eliminate spacing caused by the fact that `<img>` tags are inline elements. 
 
-```css
-img {
-  max-width: 100%;
-  display: inline-block;
-}
-```
+    ```css
+    img {
+        max-width: 100%;
+        display: inline-block;
+    }
+    ```
+
+* Although not specific to responsive development your styling for background, font-family, and base font-size should be set on the `<body>` tag of your application.
+
+    ```css
+    body {
+        background: #c5c6c7 url("/images/squared_metal.png") repeat;
+        margin: 0;
+        font-family: "Open Sans", "Oxygen", "Droid Sans", "Helvetica Neue", sans-serif;
+    }
+    ```
 
 ## Fluid Dimensions
 
-When setting up styling for most elements on your webpage you should avoid using fixed/absolute dimensions. An absolute dimension will not scal as the sive of the device scales and may caus unwanted layout interruptions and inaccessible content. For a demonstration we will use the `MediaBlock` component as an example. In `src/components/MediaBlock/MediaBlock.css` on line #18 - 22:
+When setting up styling for most elements on your webpage you should avoid using fixed/absolute dimensions. An absolute dimension will not scale as the size of the device scales and may caus unwanted layout interruptions and inaccessible content. For a demonstration we will use the `MediaBlock` component as an example. In `src/components/MediaBlock/MediaBlock.css` on line #18 - 22:
 
 If we change the width to `400px` it will become an absolute value. When scaling the browser we can see what effects this has.
 
