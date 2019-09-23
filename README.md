@@ -32,7 +32,7 @@ Responsive Viewport `<meta>` tag is used to optimize pages for a variety of devi
 </head>
 ```
 
-## Important Defaults
+## Important Defaults & Resets
 
 There are certain elements that need some base styling when working in a responsive environment. This is not a lot of changes but are crucial changes to the layout.
 
@@ -58,8 +58,8 @@ There are certain elements that need some base styling when working in a respons
 
     ```css
     body {
-        background: #c5c6c7 url("/images/squared_metal.png") repeat;
         margin: 0;
+        background: #c5c6c7 url("/images/squared_metal.png") repeat;
         font-family: "Open Sans", "Oxygen", "Droid Sans", "Helvetica Neue", sans-serif;
     }
     ```
