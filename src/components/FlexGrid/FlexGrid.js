@@ -25,7 +25,7 @@ const STYLES = {
     size12: 'grid-col_12',
 };
 
-class Template extends Component {
+class FlexGrid extends Component {
     render() {
         let gridStyles = null;
 
@@ -69,4 +69,4 @@ class Template extends Component {
     }
 };
 
-export default connect(mapStateToProps)(Template);
+export default connect(mapStateToProps)(FlexGrid);
