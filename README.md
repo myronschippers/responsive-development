@@ -64,7 +64,31 @@ There are certain elements that need some base styling when working in a respons
     }
     ```
 
-## Fluid Dimensions
+## Fluid VS Fixed Dimensions
+
+A fixed dimension is a unit of measurement set on your element that sets the dimension to a specific immovable size. This set size will not adjust to the browser window or its parent container. There is a style module that is rather common to websites typically referred to as a **wrapper** or **container** and before responsive websites these style modules often had a very specific fixed width set on them. Let's take a look at what this style module looks like with a fixed width.
+
+1. Navigating to [/#/fluid-fixed](http://localhost:3000/#/fluid-fixed) we'll see some content that is nicely layed out on the page for us.
+1. In the markup of the `FluidFixedPage.js` component we have a nondescript `<div>` with some `<p>` tags inside of it. Our `<div>` already has a class of `.wrapperDemo` on it with some fixed width styling.
+
+    ```html
+    <div className="wrapperDemo">
+        // Multiple <p>s listed as content
+    </div>
+    ```
+
+1. If we try resizing our browser we can see that at some point the content of our `.wrapperDemo` becomes wider than the browser window causing the browser window to scroll from side to side.
+1. This is because we have a fixed width of `960px` set to the `.wrapperDemo` class.
+
+    ```css
+    .wrapperDemo {
+        width: 960px;
+    }
+    ```
+
+1. How can we change it so that we scale with the browser window?
+    - We change the deminsions of our wrapper so that they are fluid and will adjust relationally to our window or parent element.
+1. 
 
 When setting up styling for most elements on your webpage you should avoid using fixed/absolute dimensions. An absolute dimension will not scale as the size of the device scales and may caus unwanted layout interruptions and inaccessible content. For a demonstration we will use the `MediaBlock` component as an example. In `src/components/MediaBlock/MediaBlock.css` on line #18 - 22:
 

@@ -16,6 +16,7 @@ import Footer from '../Footer/Footer';
 
 // PAGE COMPONENTS
 import HomePage from '../HomePage/HomePage';
+import FluidFixedPage from '../pages/FluidFixedPage/FluidFixedPage';
 
 class Template extends Component {
     render() {
@@ -30,6 +31,11 @@ class Template extends Component {
                                 exact
                                 path="/"
                                 component={HomePage}
+                            />
+
+                            <Route
+                                path="/fluid-fixed"
+                                component={FluidFixedPage}
                             />
                         </Switch>
                     </div>

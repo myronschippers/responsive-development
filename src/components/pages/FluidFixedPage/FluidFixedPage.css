@@ -1,0 +1,32 @@
+/* --------------------------------------------------------------------------------
+Presentational Styling
+All styles in this section are for visually seeing the container and what's
+happening.
+-------------------------------------------------------------------------------- */
+body {
+
+}
+
+.wrapperDemo {
+    /* additional layout styles */
+    margin: 10px auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* visual presentation */
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+/* --------------------------------------------------------------------------------
+Fluid VS Fixed
+-------------------------------------------------------------------------------- */
+
+.wrapperDemo {
+    width: 960px;
+}
+
+.wrapperDemo_fluid {
+    width: 100%;
+    /* max-width: 100%; */
+}
