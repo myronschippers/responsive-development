@@ -87,8 +87,30 @@ A fixed dimension is a unit of measurement set on your element that sets the dim
     ```
 
 1. How can we change it so that we scale with the browser window?
-    - We change the deminsions of our wrapper so that they are fluid and will adjust relationally to our window or parent element.
-1. 
+    - We change the dimensions of our wrapper so that they are fluid and will adjust relationally to our window or parent element.
+1. Let's add the already prepared class modifier of `.wrapper_fluid` and see what happens.
+    - The content is now restricted to the full width of the window/parent element and will never be larger than that. Looking at the CSS we can see that the only thing that the modifier did was change the width to `100%`. This unit of measurement is relational and will maintain fluidity by always adjusting to fit the parent element.
+    
+    ```css
+    .wrapperDemo_fluid {
+        width: 100%;
+    }
+    ```
+
+1. But what if we wanted the content to stay at the `960px` width unless the window got too small and then we wanted it to be smaller?
+    - Instead of setting `width: 100%;` let's instead set `max-width: 100%`.
+    - Now our content maintains its `960px` width until the size of the wind drops below `960px`.
+
+    ```css
+    .wrapperDemo_fluid {
+        max-width: 100%;
+    }
+    ```
+
+1. These fluid sizes are what we use to build out all responsive layout in our CSS. If your application is responsive and there is a fixed sizing somewhere it should either have an override or a very good reason for being there.
+
+
+## Media Block Fluid
 
 When setting up styling for most elements on your webpage you should avoid using fixed/absolute dimensions. An absolute dimension will not scale as the size of the device scales and may caus unwanted layout interruptions and inaccessible content. For a demonstration we will use the `MediaBlock` component as an example. In `src/components/MediaBlock/MediaBlock.css` on line #18 - 22:
 
