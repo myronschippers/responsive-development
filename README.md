@@ -18,7 +18,7 @@ After that you ar ready to go. The rest of the available scripts can be found be
 
 Responsive Viewport `<meta>` tag is used to optimize pages for a variety of devices. It is placed in the `<head>` of the HTML document. This tag gives the browser instructions on how to control the page's dimensions and scaling.
 
-* Attribute of `name="viewport"` calls out that we are definning seetings for the viewport
+* Attribute of `name="viewport"` calls out that we are defining settings for the viewport
 * Attribute of `content` controls the viewport settings
     * `width=device-width` - matches the screen's width in device-independent pixels
     * `initial-scale=1` - establishes a 1:1 relationship between CSS pixels and device-independent pixels
@@ -91,7 +91,7 @@ Changing the width back to `100%` it will now be fluid and adjust its size based
 
 We start with some base styling to support our mobile view and will work our way up from there. When a page or component is styled out it is styled for the mobile screen size. Most things will be stacking. We will go through the layout and each component as though it is only developed for mobile and then enhance our styles from there to support additional breakpoints.
 
-The additional breakpoints that we create are supporting three basic devices Phone, Tablet, and Desktop. Our Tablet breakpoint is going to be a little special because we need a Portrait and Landscape orientatio. So our final device specific breakpoints are as shown below. In some special cases you may create a breakpoint to handle extra large desktop monitors.
+The additional breakpoints that we create are supporting three basic devices Phone, Tablet, and Desktop. Our Tablet breakpoint is going to be a little special because we need a Portrait and Landscape orientation. So our final device specific breakpoints are as shown below. In some special cases you may create a breakpoint to handle extra large desktop monitors.
 
 **Device Breakpoints:**
 
@@ -146,36 +146,37 @@ We have a basic header with logo and website name on the left and a hamburger me
 * [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 
-## Available Scripts
+## Installation
+
+**Prerequisites:**
+
+- Node.js installed
+- Web Browser
+
+**run from project directory:**
+
+- `npm install`
+- `npm start`
+
+
+### Other available run scripts
 
 In the project directory, you can run:
 
-### `npm start`
+ - `npm start`
+    - Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    - The page will reload if you make edits. You will also see any lint errors in the console.
+- `npm test`
+    - Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `npm run build`
+    - Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+    - The build is minified and the filenames include the hashes. Your app is ready to be deployed!
+    - See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `npm run eject`
+    - **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Ejection Warnings
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
