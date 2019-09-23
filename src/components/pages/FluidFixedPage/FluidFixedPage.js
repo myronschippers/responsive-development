@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import './FluidFixedPage.css';
 
 class FluidFixedPage extends Component {
+    componentDidMount() {
+        require('./FluidFixedPage.css');
+    }
+
     render() {
         return (
             <div className="wrapperDemo">
