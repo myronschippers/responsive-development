@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import mapStateToProps from '../../redux/mapStateToProps';
+import mapStateToProps from '../../../redux/mapStateToProps';
 
 // CONTENT IMPORTS
-import ArticleCard from '../../content/ArticleCard/ArticleCard';
-import FlexGrid from '../FlexGrid/FlexGrid';
-import MediaBlock from '../MediaBlock/MediaBlock';
-import HeroCallout from '../HeroCallout/HeroCallout';
+import ArticleCard from '../../../content/ArticleCard/ArticleCard';
+import FlexGrid from '../../FlexGrid/FlexGrid';
+import MediaBlock from '../../MediaBlock/MediaBlock';
+import HeroCallout from '../../HeroCallout/HeroCallout';
 
 class HomePage extends Component {
     render() {
