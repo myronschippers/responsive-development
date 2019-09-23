@@ -4,7 +4,12 @@ All styles in this section are for visually seeing the container and what's
 happening.
 -------------------------------------------------------------------------------- */
 body {
+    background-color: #c0c0c0;
+    background-image: none;
+}
 
+p {
+    margin: 0 0 15px;
 }
 
 .wrapperDemo {

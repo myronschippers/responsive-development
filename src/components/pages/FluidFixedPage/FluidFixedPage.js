@@ -4,7 +4,7 @@ import './FluidFixedPage.css';
 class FluidFixedPage extends Component {
     render() {
         return (
-            <div className="wrapper">
+            <div className="wrapperDemo">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra pretium nisl, in commodo sapien faucibus eu. Suspendisse potenti. Donec sed purus faucibus turpis egestas rhoncus. Fusce volutpat velit ut consectetur tristique. Phasellus id ipsum eu leo lacinia finibus. Sed sagittis diam id leo porta porttitor. Nullam sit amet metus nec urna sollicitudin condimentum. Nunc erat mauris, imperdiet non imperdiet ut, congue vitae magna. Praesent id ipsum elit. Sed pulvinar tortor vel ligula pellentesque, vel consectetur neque scelerisque.</p>
 
                 <p>Integer porta iaculis nunc in feugiat. Donec sollicitudin libero at facilisis varius. Nulla suscipit urna eget vehicula dapibus. Fusce ut euismod lectus. Aenean ac finibus sapien. Vestibulum accumsan est dolor, id aliquet sapien aliquam eget. Donec molestie lorem nibh, sed consequat purus aliquam at. Mauris finibus enim id pretium finibus. Donec ornare congue ornare. Proin eget dolor congue, suscipit sapien vel, eleifend risus. Pellentesque non dolor sed enim vestibulum convallis eu eu ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu massa lectus. Integer laoreet lacus nunc, ac hendrerit lectus iaculis eu. Sed sit amet vulputate purus. Pellentesque tristique, augue at mattis condimentum, lorem justo tincidunt neque, at ultrices felis lectus placerat magna.</p>
