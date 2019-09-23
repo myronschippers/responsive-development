@@ -15,7 +15,7 @@ import AppTopper from '../AppToppers/AppTopper';
 import Footer from '../Footer/Footer';
 
 // PAGE COMPONENTS
-import HomePage from '../HomePage/HomePage';
+import HomePage from '../pages/HomePage/HomePage';
 import FluidFixedPage from '../pages/FluidFixedPage/FluidFixedPage';
 
 class Template extends Component {
